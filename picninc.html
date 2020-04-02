@@ -1,0 +1,151 @@
+
+<! DOCTYPE html>
+<html>
+<head>
+     <title> Contact Page | Vietnam Veterans of America</title>
+     <link rel="stylesheet" type="text/css" href="http://studentweb.kennesaw.edu/~lasfaw/3260/css/webdevcss.css">
+     <style>
+
+.contactinfo{
+        
+         padding-left: 10px;
+         padding-bottom: 0px; 
+         margin-bottom: 30px;
+         margin-top: 50px;
+         width: align-self: auto;
+         text-align: center;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: large;
+         line-height: 75px;
+         border:5px double hsla(0,0%,38%,1.00);
+         background-color:#633974;
+}
+
+     </style>
+</head>
+<body  style="background-color:#1E1E1E; color: white; font-family: Helvetica, Geneva, Verdana, sans-serif">
+            <div id="header">
+                    <br>
+                  <h1>Vietnam Veterans of America</h1>
+                  <h2>Chapter 1030 Cumming, GA</h2>
+                </div>
+                   
+                <nav class="navbar">
+                
+                  <ul class="navbar">
+                    <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/VVAHome.html">Home</a></li>
+                    <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/VVAaboutus.htm">About Us</a></li>
+                    <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/newsandevents.html">News and Events</a></li>
+                    <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/communityservice.html">Community Service</a></li>
+                    <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/form.html">Contact Us</a></li>
+                    <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/Donate.html">Donate</a></li>
+                  </ul>
+                    
+            </nav>
+                <center>
+                    <hr></hr>
+                    <br>
+                    <h2 style="color: #633974;">We Have Fun Events For Our Members! </h2>
+                    
+                    <br>
+                    <hr></hr>
+                    </center>
+                    
+  </div>
+     </header>
+        <main>
+
+<p class="contactinfo"><em>2016 - July Picnic</em></p>
+
+<div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/picnic1.png" width="50%" height="50%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/picnic2.JPG" width="50%" height="50%">
+        
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/picnic3.JPG" width="50%" height="50%">
+          
+        </div>
+
+        <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/picnic4.JPG" width="50%" height="50%">
+                
+              </div>
+              <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/picnic5.JPG" width="50%" height="50%">
+                
+                  </div>
+                  
+                                    
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+    
+      </div>
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1} 
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none"; 
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block"; 
+dots[slideIndex-1].className += " active";
+}
+
+</script>
+<footer class="footer">
+  
+  <p>All Rights Reserved &copy Vietnam Veterans of America</p>
+  
+<a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/feedback.html">Feedback</a> | <a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/Credits.html">Credits</a> | <a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/sitemap.html">Site Map</a>
+
+</footer>
+
+</body>
+</main>
+
+</html>
