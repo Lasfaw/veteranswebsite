@@ -1,0 +1,137 @@
+
+<! DOCTYPE html> 
+<html>
+
+<head>
+     <title> Purple Heart City Proclamation</title>
+     <link rel="stylesheet" type="text/css" href="http://studentweb.kennesaw.edu/~lasfaw/3260/css/webdevcss.css">
+</head>
+<body style="background-color:#1E1E1E; color: white; font-family: Helvetica, Geneva, Verdana, sans-serif">
+    <div id="header">
+        <br>
+      <h1>Vietnam Veterans of America</h1>
+      <h2>Chapter 1030 Cumming, GA</h2>
+    </div>
+        
+    <nav class="navbar">
+                
+      <ul class="navbar">
+        <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/VVAHome.html">Home</a></li>
+        <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/VVAaboutus.htm">About Us</a></li>
+        <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/newsandevents.html">News and Events</a></li>
+        <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/communityservice.html">Community Service</a></li>
+        <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/form.html">Contact Us</a></li>
+        <li><a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/Donate.html">Donate</a></li>
+      </ul>
+        
+        
+        
+</nav>
+            </div>
+            
+                <center>
+                    <hr></hr>
+                    <br>
+                    <h1 style="color: #633974;">2016 - Purple Heart City Proclamation</h1>
+                    
+                    <br>
+                    <hr></hr>
+                    </center>
+                    
+                    
+              
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 6</div>
+                      <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/IMG-3321.JPG" style="width:100%">
+                      <div class="text">Presentation at the August Meeting</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 6</div>
+                      <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/IMG-3322.JPG" style="width:100%">
+                      <div class="text">Mayor Gravitt with President Ely</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 6</div>
+                      <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/IMG-3323.JPG" style="width:100%">
+                      <div class="text">Reading the Request</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/IMG-3324.JPG" style="width:100%">
+                            <div class="text">Handshakes for all after Acceptance</div>
+                          </div>
+                          <div class="mySlides fade">
+                                <div class="numbertext">5 / 6</div>
+                                <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/IMG-3325.JPG" style="width:100%">
+                                <div class="text">Purple Heart City Proclamation</div>
+                              </div>
+                              <div class="mySlides fade">
+                                    <div class="numbertext">6 / 6</div>
+                                    <img src="http://studentweb.kennesaw.edu/~lasfaw/3260/images/IMG-3326.JPG" style="width:100%">
+                                    <div class="text">Proclamation Photo</div>
+                                  </div>
+                                                
+                  
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <!-- The dots/circles -->
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span> 
+                  </div>
+            <script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+            
+            </script>
+           <footer class="footer">
+  
+            <p>All Rights Reserved &copy Vietnam Veterans of America</p>
+            
+          <a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/feedback.html">Feedback</a> | <a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/Credits.html">Credits</a> | <a href="http://studentweb.kennesaw.edu/~lasfaw/3260/project/sitemap.html">Site Map</a>
+          
+          </footer>
+         
+            </body>
+</html>
