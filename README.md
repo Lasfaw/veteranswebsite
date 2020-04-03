@@ -4,3 +4,12 @@ A website for Vietnam Veterans of America (Chapter 1030 GA) created using HTML, 
 ---
 
 The purpose of this website is to create a platform for veterans to find out information about thier chapter, the different events that are taking place and the resources that are available to them.  
+
+## Getting Started
+
+- [x] Define the Target Audience 
+- [x] Sketch out the mockup of the design 
+- [x] Decide on the color palletes 
+- [x] Design the template
+- [x] Develop the site structure using HTML 
+
