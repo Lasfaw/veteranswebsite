@@ -21,5 +21,5 @@ The purpose of this website is to create a platform for veterans to find out inf
 - [x] Code validation using W3C Markup Validation Service 
 - [x] Stylesheet validation using W3C CSS Validation Service
 - [x] Validate Web accessability using AChecker 
-- [x] Publish website
+- [x] Publish website!
 
